@@ -1,2 +1,2 @@
-# git-tips
-git tips and tricks
+# git tips and tricks
+

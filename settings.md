@@ -10,7 +10,7 @@
  
  Настройки каждого следующего уровня переопределяют настройки предыдущего, то есть конфигурация из .git/config перекроет конфигурацию из /etc/gitconfig.
  
- ## идентификатор
+ ## Идентификатор
  ```sh
  git config --global user.name "John Doe"
  git config --global user.email johndoe@example.com
@@ -20,15 +20,15 @@
  git config --list
  ```
  Результат:
-  user.name=John Doe
-  user.email=johndoe@example.com
-  color.status=auto
-  color.branch=auto
-  color.interactive=auto
-  color.diff=auto
- ...
+  >user.name=John Doe
+  >user.email=johndoe@example.com
+  >color.status=auto
+  >color.branch=auto
+  >color.interactive=auto
+  >color.diff=auto
+  >...
  
- можно проверить значение конкретного ключа: git config <ключ>
+ Можно проверить значение конкретного ключа: git config <ключ>
  ```sh
  git config user.name
  ```
